@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.64">
+    <testcase classname="HoverCategories and proceed an order" name="HoverCategories for random product" time="0.027">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Login with valid email and password...................................undefined
+And go to Women category and select blouse..................................skipped
+Then Assert navigate page contain category name.............................skipped
+When click on go to cart....................................................skipped
+And click on Proceed to check out...........................................skipped
+Then check if the product in stock..........................................skipped
+And Click on proceed to checkout twice......................................skipped
+And Click on check box and proceed to checkout..............................skipped
+And Click on Pay by bank....................................................skipped
+And Click on Confirm........................................................skipped
+Then Assert completing the order by specific word "Complete"................skipped
+]]></failure>
+    </testcase>
+</testsuite>
